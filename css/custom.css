@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.little-title {
+    font-size: 12px;
+    font-weight: 300;
+    width: 420px;
+    letter-spacing: 0.8px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+.little-title {
+    width: 320px;
+}
+.heading-title h1 {
+    font-size: 20px !important;
+}
+}
+.top-header {
+    background: #14467b;
+    padding: 6px 0;
+}
+.first-contentnav {
+    color: #ffffff;
+}
+.first-contentnav span {
+    margin-right: 20px;
+}
+.first-contentnav i {
+    font-size: 8px;
+    color: #14467b;
+    background: #ffffff;
+    padding: 4px;
+    border-radius: 50%;
+}
+.first-contentnav small {
+    font-size: 12px;
+}
+.social-iconbox i {
+    font-size: 12px;
+    margin-right: 6px;
+    background: #ffffff;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* SECOUND NAV */
+nav.navbar {
+    padding: 0;
+}
+.navbar {
+    background: #ffffff;
+}
+.navbar-nav {
+    padding: 0 !important;
+    margin: 0;
+}
+.header {
+    width: 100%;
+}
+.header.fixed{
+    position: fixed;
+    opacity: 0;
+    transform: translateY(-50%);
+}
+.header.active {
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    top: 0;
+    transform: none;
+    z-index: 1000;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand img {
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+.logo-text {
+    font-size: 26px;
+}
+.nav-link i {
+    font-size: 12px;
+    position: absolute;
+    top: 42%;
+    right: -6px;
+    transform: translateY(-50%, -50%);
+}
+.nav-item {
+    margin-right: 20px;
+}
+.nav-link {
+    padding: 20px 10px;
+}
+.bookingbtn {
+    color: #fff;
+    background: #14467b;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.bookingbtn:hover {
+    color: #fff;
+    background: #219bff;
+
+}
+@media screen and (min-width:993px) {
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+.dropdown:focus .dropdown-menu {
+    display: block !important;
+}
+.dropdown .dropdown-menu.show {
+    display: none !important;
+}
+}
+@media only screen and (max-width: 768px) {
+    .top-header {
+        display: none;
+    }
+    .nav-link i {
+        position: relative;
+    }
+    .collapse{
+        padding: 30px 0;
+    }
+}
+/* FOOTER SECTIOM */
+.footermain {
+    background: #00447f;
+    padding: 60px 0;
+    border-bottom: 1px solid #7c7c7c;
+}
+.fone-content img {
+    width: 190px;
+    height: 50px;
+}
+.fone-content p {
+    color: #d8d8d8;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.fibox i {
+    background: #ffffff;
+    margin-right: 6px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.xpc h5 {
+    color: #ffffff;
+}
+.xpc p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #d8d8d8;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.xpc p:hover {
+    color: #ffffff;
+}
+.copyrightarea {
+    color: #ffffff;
+    background: #14467b;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.cpname {
+    color: #2490eb;
+}
+.lastfooter {
+    color: #2490eb;
+}
+@media only screen and (max-width: 992px) {
+    .maincontactform {
+        width: 100%;
+    }
+}
+    /* ABOUT SECTION */ /* ABOUT SECTION */
+/* ABOUT SECTION */       /* ABOUT SECTION */
+   /* ABOUT SECTION */ /* ABOUT SECTION */
+.about-content h4 {
+    color: #002366;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    line-height: 46px;
+}
+.about-content p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.aboutbtn {
+    color: #ffffff;
+    background: #00447f;
+    width: 190px;
+    padding: 10px 30px;
+    transition: 0.4s;
+}
+.aboutbtn:hover {
+    color: #ffffff;
+    background: #0c62ad;
+}
+.about-image img {
+    width: 100%;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@media only screen and (max-width: 992px) {
+    .about-content h4 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .about-content p {
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .aboutbtn {
+        color: #ffffff;
+        background: #00447f;
+        font-size: 14px;
+        width: 140px;
+        padding: 8px 30px;
+        transition: 0.5s;
+    }
+    .about-image img {
+        display: none;
+    }
+}
+    /* SERVICE SECTION */ /* SERVICE SECTION */
+/* SERVICE SECTION */       /* SERVICE SECTION */
+   /* SERVICE SECTION */ /* SERVICE SECTION */
+.heading-title h1 {
+    color: #002366;
+    font-size: 42px;
+    font-weight: 600;
+}
+.card {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: 0.4s;
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.divider {
+	height: 4px;
+	width: 120px;
+	background: linear-gradient(to right, #004480, #b75ab5);
+	margin: 16px auto;
+}
+.inner {
+    overflow: hidden;
+}
+.inner img {
+    width: 100%;
+    transition: all 0.8s ease;
+}
+.card:hover .inner img {
+    transform: scale(1.3);
+}
+.card-title {
+    color: #002366;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding: 10px 0;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.service-button a {
+    color: #ffffff;
+    background: #004480;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    transition: 0.4s;
+}
+.service-button i {
+    font-size: 13px;
+}
+.service-button a:hover {
+    color: #ffffff;
+    background: #0c62ad;
+}
+    /* EMERGENCEY CASE SECTION */ /* EMERGENCEY CASE SECTION */
+/* EMERGENCEY CASE SECTION */         /* EMERGENCEY CASE SECTION */
+    /* EMERGENCEY CASE SECTION */ /* EMERGENCEY CASE SECTION */
+.emergencey-case {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(0deg, #14467bea, #14467bea), url('../images/emergencey.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.emergencey-content {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.emergencey-content img {
+    width: 200px;
+}
+.emergencey-content h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #00447f; 
+}
+/* TEXT ANIMATION  */
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 28px;
+  }
+  .waviy span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: uppercase;
+    animation: waviy 1.9s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-30px)
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .emergencey-case {
+        height: 100vh;
+    }
+}
+     /* HOME-CARE-PROCESS SECTION */ /* HOME-CARE-PROCESS SECTION */
+/* HOME-CARE-PROCESS SECTION */         /* HOME-CARE-PROCESS SECTION */
+    /* HOME-CARE-PROCESS SECTION */ /* HOME-CARE-PROCESS SECTION */
+    .process-card {
+        position: relative;
+        width: 100%;
+        background-image: url('../images/process.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        padding: 50px 40px;
+        transition: all 0.5s ease;
+    }
+    .process-card:hover {
+        background-position: top;
+    }
+    .process-card h5 {
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.6px;
+    }
+    .process-card p {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0.6px;
+    }
+    .step {
+        position: absolute;
+        color: #ffffff;
+        background: #00447f;
+        width: 100px;
+        height: 48px;
+        top: 0;
+        right: 0;
+    }
+    .step p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 10px;
+    }
+     /* ACCORDION-FAQ SECTION */ /* ACCORDION-FAQ SECTION */
+/* ACCORDION-FAQ SECTION */         /* ACCORDION-FAQ SECTION */
+    /* ACCORDION-FAQ SECTION */ /* ACCORDION-FAQ SECTION */
+    .accordion {
+        --bs-accordion-btn-focus-box-shadow: none;
+        --bs-accordion-btn-bg: #ffffff;
+        --bs-accordion-active-color: #ffffff;
+        --bs-accordion-active-bg: #00447f;
+        --bs-accordion-bg: #f7f7f7;
+        --bs-accordion-btn-active-icon: #ffffff;
+    }
+    .accordion-button:not(.collapsed)::after {
+        background-image: url('../images/angledown.png');
+    }
+    .accordion-button::after {
+        background-image: url('../images/angledown2.png');
+    }
+    .accordion-button {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.6px;
+        padding: 20px 30px;
+    }
+    .accordion-body {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        padding: 20px 30px;
+    }
